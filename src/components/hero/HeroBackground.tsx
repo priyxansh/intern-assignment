@@ -9,9 +9,9 @@ const HeroBackground = ({}: HeroBackgroundProps) => {
       <img
         src={backgroundImage}
         alt="Gradient Background"
-        className="object-fill w-full"
+        className="object-fill w-full h-full"
       />
-      <img src={heroBg} alt="Hero Background" className="absolute right-0 bottom-0" />
+      <img src={heroBg} alt="Hero Background" className="absolute right-0 bottom-0 object-fill" />
     </div>
   );
 };

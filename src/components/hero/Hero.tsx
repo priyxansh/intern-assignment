@@ -16,7 +16,7 @@ const Hero = ({}: HeroProps) => {
               {SITE_TITLE} Shop!
             </span>
           </h1>
-          <p className="text-black text-left text-xs sm:text-sm mb-8 mr-10">
+          <p className="text-[#31546D] lg:max-w-[400px] text-left text-xs sm:text-sm mb-8 mr-10">
             Here you will find unique phone accessories, crystals, jewelry and
             more. Free shipping inside the U.S. and our phone grips come with a
             limited warranty. Enjoy!
