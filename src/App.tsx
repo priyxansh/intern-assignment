@@ -1,10 +1,13 @@
 import "./App.css";
+import Header from "./components/header/Header";
+import HomePage from "./pages/HomePage";
 
 function App() {
   return (
-    <section>
-      <span className="bg-red-200">Hello World</span>
-    </section>
+    <>
+      <Header />
+      <HomePage />;
+    </>
   );
 }
 
